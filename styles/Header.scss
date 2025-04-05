@@ -1,0 +1,126 @@
+/* Header Styles */
+.header {
+  background-color: white !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+  padding: 0.25rem 0;
+}
+
+/* Toolbar - Ensuring proper alignment */
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* Logo Styling */
+.logo-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  height: 90px;
+  width: auto;
+}
+
+/* Navigation Container */
+.nav-container {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+/* Navigation Buttons */
+.nav-button {
+  margin: 0 8px !important;
+  text-transform: none !important;
+  font-weight: 500 !important;
+  color: #1f2937 !important;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  padding: 8px 16px !important;
+  border-radius: 4px !important;
+}
+
+.nav-button:hover {
+  background-color: #0d6aa3 !important;
+  color: white !important;
+}
+
+.nav-button.active {
+  background-color: #0d6aa3 !important;
+  color: white !important;
+}
+
+.dropdown-grid {
+  width: 400px;
+}
+
+
+@media (max-width: 600px) {
+  .dropdown-grid {
+      width: 100%;
+  }
+}
+.mobile-menu-icon {
+  color: #0d6aa3 !important;
+}
+
+/* Mobile Styles */
+@media (max-width: 900px) {
+  .logo-image {
+      height: 60px; /* Reduce logo size for smaller screens */
+  }
+
+  .nav-container {
+      display: none; /* Hide desktop navigation on small screens */
+  }
+
+  .mobile-menu-icon {
+      display: flex;
+      justify-content: flex-end;
+  }
+}
+
+/* Drawer Styles (Mobile Navigation) */
+.MuiDrawer-paper {
+  padding-top: 20px;
+  width: 250px;
+}
+
+/* Drawer List Items */
+.MuiListItem-root {
+  padding: 12px 24px !important;
+  color: #1f2937;
+  text-decoration: none;
+}
+
+.MuiListItem-root:hover {
+  background-color: #f3f4f6;
+}
+
+/* Hamburger Menu and Close Icon Styling */
+.mobile-menu-icon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* Drawer Menu */
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Drawer Close Button */
+.drawer-close-button {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.service-navitem {
+  color:#1f2937 !important;
+}
