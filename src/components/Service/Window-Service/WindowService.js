@@ -1,11 +1,11 @@
 import React, { lazy, Suspense } from "react";
 import { Box, CircularProgress } from "@mui/material";
-import {
+import{
   windowServices,
   windowWhyChooseUs,
   windowFaqData,
   windowGallaryImages,
-} from "../../../Data/ServiceData/WindowData";
+} from "../../../Data/ServiceData/WindowData" ;
 import ServiceBanner from "../ServiceBanner";
 
 // Lazy load components

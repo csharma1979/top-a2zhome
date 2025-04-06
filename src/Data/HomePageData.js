@@ -91,7 +91,7 @@ export const heroSlides = [
     title: "Transform Your Kitchen – Expert Repairs & Installations!",
     subtitle:
       "From Faucets to Fixtures – Fast, Reliable, and Affordable Kitchen Services You Can Trust.",
-    image: "/assets/kitchen/A2z-home-kitchen-service-1.webp",
+    image: "/assets/kitchen/A2z-home-kitchen-service-8.webp",
   },
   {
     title: "Stay Comfortable Year-Round with Our HVAC Services!",
