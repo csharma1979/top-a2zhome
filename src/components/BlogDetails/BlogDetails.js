@@ -86,7 +86,13 @@ const BlogDetail = ({ slug }) => {
             </Box>
 
             <Box className="blog-content">
-              {blog?.blogDescription || "No description available."}
+              {/* {blog?.blogDescription || "No description available."} */}
+              <p
+                      dangerouslySetInnerHTML={{
+                        __html:
+                          blog?.blogDescription || "No description available.",
+                      }}
+                    />
             </Box>
           </Grid>
         </Grid>

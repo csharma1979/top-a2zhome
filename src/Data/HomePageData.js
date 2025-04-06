@@ -88,17 +88,17 @@ export const benefits = [
 
 export const heroSlides = [
   {
+    title: "Stay Comfortable Year-Round with Our HVAC Services!",
+    subtitle:
+    "Professional Heating, Cooling, and Ventilation Solutions – Fast, Reliable, and Affordable.",
+    
+    image: "/assets/HVAC-Services/HVAC-Services-1.webp",
+  },
+  {
     title: "Transform Your Kitchen – Expert Repairs & Installations!",
     subtitle:
       "From Faucets to Fixtures – Fast, Reliable, and Affordable Kitchen Services You Can Trust.",
-    image: "/assets/kitchen/A2z-home-kitchen-service-8.webp",
-  },
-  {
-    title: "Stay Comfortable Year-Round with Our HVAC Services!",
-    subtitle:
-      "Professional Heating, Cooling, and Ventilation Solutions – Fast, Reliable, and Affordable.",
-
-    image: "/assets/HVAC-Services/HVAC-Services-1.webp",
+    image: "/assets/banner/A2z-home-kitchen-service-7.webp",
   },
   {
     title: "Plumbing Problems? We’ve Got the Solution!",
